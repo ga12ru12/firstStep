@@ -1,4 +1,5 @@
 /* Desktop */
+@import url('jquery.bxslider.css');
 
 body {	width: 100%; margin: 0; padding: 0; 
 	overflow-x: hidden; overflow-y: scroll;  }
@@ -80,6 +81,74 @@ section#tin .infor-tin div a { width: 96px;height: 35px;border: 1px solid black;
 section#tin .infor-tin div a:hover { border: 1px solid blue; color: blue; }
 .title-tin { font-size: 25px !important;  margin: 0; padding: 0;}
 /* Tin */
+
+
+
+
+
+
+
+
+/* slider-top homePage*/
+section#slider-top, section#slider-bot { width: 100%; position: relative;}
+section#slider-top ul, section#slider-bot ul { padding: 0; margin: 0; }
+section#slider-top ul li { position: relative !important; width: 100% !important;
+	padding-bottom: 57%;  }
+section#slider-top ul li img, section#slider-top ul li div, section#slider-bot ul li img,
+section#slider-bot ul li div.bg  { 
+	position: absolute; width: 100%; height: 100%;	top: 0; left: 0; }	
+section#slider-top ul li div { background: black; opacity: 0.5; z-index: 1;}
+
+section#slider-top ul li a {
+	border: 1px solid white; z-index: 4;
+	width: 123px;	height: 40px; color: white;
+	position: absolute; bottom: 20%;
+	top: 0; left: 0; right: 0; margin: auto auto 0 auto;
+	text-align: center; text-decoration: none;
+	font-size: 16px; line-height: 40px;
+}
+section#slider-top ul li a:hover { color: chartreuse; border-color: chartreuse; }
+section#slider-top ul li p { 
+	color: white; z-index: 4; font-size: 37px;
+	position: absolute; bottom: 42%;
+	line-height: normal;
+	width: 90%; text-align: center; 
+	left: 0; right: 0; margin: 0 auto;
+}
+/*  # slider-top homePage*/
+
+
+/* slider-bot */
+section#slider-bot ul li { position: relative !important; width: 100% !important;
+	/*padding-bottom: 34%; */
+	 }
+section#slider-bot ul li div:first-child { 
+	position: relative; width: 100%;
+	padding-bottom: 34%; z-index: 1;
+}
+section#slider-bot ul li div.bg { background: url(../images/icon/bgvideo.png); z-index: 4;}
+section#slider-bot ul li div.infor-sliderbot {
+	position: absolute; width: 600px; 
+	top: 20%; left: 20%; right: 0; border: 0;
+	text-align: left;
+	font-size: 20px;
+	z-index: 4; color: white;
+}
+
+section#slider-bot ul li div.infor-sliderbot p { 
+	margin: 0; font-size: 36px; line-height: normal;
+}
+section#slider-bot ul li div.infor-sliderbot p:first-child, 
+section#slider-bot ul li div.infor-sliderbot p:last-child {
+	font-size: 20px !important; line-height: 25px !important;
+}
+
+/* # slider -bot */
+
+
+
+
+
 
 /* # Desktop */
 

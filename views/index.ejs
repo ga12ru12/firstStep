@@ -1,5 +1,93 @@
 <% layout('layout') %>
-<div class="contact-img-top">
-    <img src="/images/contact.jpg">
-</div>
-<!-- # contact-img-top -->
+<section id="slider-top">
+    <ul class="bxslider-top">
+        <li><img src="/images/nhadat1.jpg"><div></div>
+            <a href="">read more</a>
+            <p>Welcome to Mua Ban Nha Dat Da Nang ^_^<br>
+                Chúng tôi chuyên tư vấn & hỗ trợ tốt nhất các dịch vụ nhà đất trên địa bàn Đà Nẵng.
+            </p>
+        </li>
+        <li><img src="/images/nhadat2.jpg"><div></div>
+            <a href="">read more</a>
+            <p>Welcome to Mua Ban Nha Dat Da Nang ^_^<br>
+                Chúng tôi chuyên tư vấn & hỗ trợ tốt nhất các dịch vụ nhà đất trên địa bàn Đà Nẵng.
+            </p>
+        </li>
+        <li><img src="/images/nhadat3.jpg"><div></div>
+            <a href="">read more</a>
+            <p>Welcome to Mua Ban Nha Dat Da Nang ^_^<br>
+                Chúng tôi chuyên tư vấn & hỗ trợ tốt nhất các dịch vụ nhà đất trên địa bàn Đà Nẵng.
+            </p>
+        </li>
+        <li><img src="/images/test4-small.jpg"><div></div>
+            <a href="">read more</a>
+            <p>Welcome to Mua Ban Nha Dat Da Nang ^_^<br>
+                Chúng tôi chuyên tư vấn & hỗ trợ tốt nhất các dịch vụ nhà đất trên địa bàn Đà Nẵng.
+            </p>
+        </li>
+    </ul>
+</section>
+<section id="slider-bot">
+    <ul class="bxslider-bot">
+        <li>
+            <div><img src="/images/nhadat1.jpg"></div>
+            <div class="bg"></div>
+            <div class="infor-sliderbot">
+                <p>Đất nền</p>
+                <p>Vision City - Đất nền ven biển ĐÀ NẴNG 215 triệu</p>
+                <p>Vision city tọa lạc ở vị trí vàng, phía Đông Nam thành phố Đà Nẵng, nằm trên trục đường du lịch 5 sao Sơn Trà - Điện Ngọc. Liền kề khu Biệt thự Bồng Lai, sân golf Mongomerie...</p>
+            </div>
+
+        </li>
+
+        <li>
+            <div><img src="/images/nhadat2.jpg"></div>
+            <div class="bg"></div>
+            <div class="infor-sliderbot">
+                <p>Đất nền</p>
+                <p>Vision City - Đất nền ven biển ĐÀ NẴNG 215 triệu</p>
+                <p>Vision city tọa lạc ở vị trí vàng, phía Đông Nam thành phố Đà Nẵng, nằm trên trục đường du lịch 5 sao Sơn Trà - Điện Ngọc. Liền kề khu Biệt thự Bồng Lai, sân golf Mongomerie...</p>
+            </div>
+        </li>
+
+        <li>
+            <div><img src="/images/nhadat3.jpg"></div>
+            <div class="bg"></div>
+            <div class="infor-sliderbot">
+                <p>Đất nền</p>
+                <p>Vision City - Đất nền ven biển ĐÀ NẴNG 215 triệu</p>
+                <p>Vision city tọa lạc ở vị trí vàng, phía Đông Nam thành phố Đà Nẵng, nằm trên trục đường du lịch 5 sao Sơn Trà - Điện Ngọc. Liền kề khu Biệt thự Bồng Lai, sân golf Mongomerie...</p>
+            </div>
+        </li>
+
+        <li>
+            <div><img src="/images/test4-small.jpg"></div>
+            <div class="bg"></div>
+            <div class="infor-sliderbot">
+                <p>Đất nền</p>
+                <p>Vision City - Đất nền ven biển ĐÀ NẴNG 215 triệu</p>
+                <p>Vision city tọa lạc ở vị trí vàng, phía Đông Nam thành phố Đà Nẵng, nằm trên trục đường du lịch 5 sao Sơn Trà - Điện Ngọc. Liền kề khu Biệt thự Bồng Lai, sân golf Mongomerie...</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.bxslider-top').bxSlider({
+            mode: 'vertical',
+            controls: false,
+            speed: 8000,
+            slideMargin: 10
+        });
+
+        $('.bxslider-bot').bxSlider({
+            mode: 'fade',
+            slideMargin: 10,
+            auto: true,
+            pause: 5000
+
+        });
+    });
+
+</script>
